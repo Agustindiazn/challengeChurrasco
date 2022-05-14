@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 const config = require('./db.config');
-var moment = require('moment');
+let moment = require('moment');
 moment.locale('es');
 
 mongoose.Promise = global.Promise;
 
-var connections = new Array();
+let connections = new Array();
 
 function createConnection(name = 'challenge') {
 

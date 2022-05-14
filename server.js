@@ -5,7 +5,7 @@ const app = express();
 
 let userRoutes = require('./routers/user.routes');
 let productRoutes = require('./routers/product.routes')
-var corsOptions = {
+let corsOptions = {
     origin: "http://localhost:8080"
 };
 

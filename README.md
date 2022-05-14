@@ -7,3 +7,5 @@
 ### Run locally
 - npm install
 - npm run dev 
+
+### Faltan los datos de la BD

@@ -7,5 +7,4 @@ module.exports = {
     AUTHSOURCE: 'admin',
     DEFAULT: 'challenge',
     TOKEN_SECRET: process.env.TOKEN_SECRET || "P05R35T@",
-
 };
