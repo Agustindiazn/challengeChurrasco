@@ -3,6 +3,8 @@
 # compiled output
 node_modules/
 package-lock.json
+db.config.js
+
 
 # dependencies
 /node_modules
