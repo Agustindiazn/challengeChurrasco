@@ -1,0 +1,14 @@
+# autenticación de usuario - colección users
+    - only role=”admin” propiedad ‘active’=true ✅
+    - password hash SHA256 ✅
+    - login username o con email ✅
+    - endpoint valid user token JWT cabecera ‘Authorization’ ✅
+    - validar token ✅ 
+
+# Listado de Productos
+    - colección products ✅
+    - filtros de búsqueda ✅ 
+
+# Alta de producto
+    - {SKU, name, pictures, price, currency} required ✅ 
+    - {code, description} opcional ✅ 

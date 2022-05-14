@@ -1,0 +1,12 @@
+GET http://localhost:8080/api/products
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYwNTIzMjg5MTAyYTRiNTMwOGM4MDM0OSIsInVzZXJuYW1lIjoiY2hhbGxlbmdlIiwiZW1haWwiOiJjaGFsbGVuZ2VAY2hyci5jYyIsInBhc3N3b3JkIjoiMjZmMmFmYjBhODRmNjExZGZjMTVmNjhmZWFkYzgxNWY3OTRiMzA4MWRiM2MyMzBlMjkzNzg3YzUxMjRhYzFhNCIsImxhc3RMb2dpbiI6IjIwMjItMDMtMDlUMjI6NTA6NTQuNDQwWiIsInJvbGUiOiJhZG1pbiIsImFjdGl2ZSI6dHJ1ZSwiZmlyc3ROYW1lIjoiQ2hhbGxlbmdlIiwibGFzdE5hbWUiOiJTbWl0aCIsImJpcnRoZGF5IjoiMTk4NS0wMy0yN1QwMzowMDowMC4wMDBaIn0sImlhdCI6MTY1MjU1ODUzNH0.o8-OzdC5go4X7cFzGwEbx1idBGlg8clA1l_eV8hPCdc
+Content-Type: application/json 
+
+{
+    "match":{
+        "name":"Prueaaaba rest"
+
+    }
+}
+
+### Listado de productos con filtros o no
